@@ -582,12 +582,15 @@ img {
 
 /* 3 column */
 
+.footer-column-b {
+    margin-right: 0;
+    margin-left: auto;
+}
+
 .footer-form {
     display: flex;
     gap: 24px;
 }
-
-
 
 .footer-input {
     width: 264px;
