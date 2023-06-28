@@ -366,8 +366,8 @@
             </div>
             <div class="footer-column">
                 <p class="footerm">Subscribe</p>
-                <form class="footer-form" action="">
-                    <label class="footer-label" for=""><input class="footer-input" type="email" name="user-email"
+                <form class="footer-form">
+                    <label class="footer-label"><input class="footer-input" type="email" name="user-email"
                             placeholder="E-mail"></label>
                     <button class="footer-button" type="submit">Subscribe
                         <svg class="icon-subscribe" width="24" height="24">
@@ -421,20 +421,24 @@
                     </div>
                 </div>
 
-                <div class="margin-a">
-                    <label class="modal-label margin-a" for="user-comment">Comment</label>
+                <div class="margin-c">
+                    <label class="modal-label" for="user-comment">Comment</label>
                     <textarea class="modal-comment" name="user-comment" id="user-comment" cols="30" rows="10"
                         placeholder="Text input"></textarea>
                 </div>
 
                 <div class="modal-checkbox">
-                    <input class="visually-hidden" type="checkbox" id="user-privacy" name="user-privacy" value="true">
-                    <label class="label-check" for="user-privacy">I accept the terms and conditions of the
+                    <input class="visually-hidden input-check" type="checkbox" id="user-privacy" name="user-privacy"
+                        value="true">
+                    <label class="label-check" for="user-privacy">
                         <span class="span-check">
                             <svg class="icon-check" width="10" height="8">
-                                <use href="./images/icons.svg#checkbox"></use>
+                                <use href="./images/icons.svg#icon-checkbox"></use>
                             </svg>
-                        </span></label>
+                        </span>
+                        I accept the terms and conditions of the
+                        <a class="privacy-policy" href="">Privacy Policy</a>
+                    </label>
                 </div>
 
                 <button class="modal-button" type="submit">Send</button>
